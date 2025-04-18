@@ -1,14 +1,14 @@
 import {
-  commonSchemaFieldGroupFooter,
   commonSchemaFieldDefObjectIdRequired,
+  commonSchemaFieldGroupFooter,
   commonSchemaFieldQualifierRequired,
   commonSchemaFieldTypeString,
-} from '@freight/common-schema-fields';
+} from '@datr.tech/leith-common-schema-fields';
 
 export const userModelSchema = {
   _id: {
     ...commonSchemaFieldDefObjectIdRequired,
-    alias: 'usereId',
+    alias: 'userId',
   },
   userTypeId: {
     ...commonSchemaFieldDefObjectIdRequired,
