@@ -3,7 +3,7 @@ import {
   commonSchemaFieldGroupFooter,
   commonSchemaFieldQualifierRequired,
   commonSchemaFieldTypeString,
-} from '@datr.tech/leith-common-schema-fields';
+} from '@datr.tech/parcel-model-schemas-common-fields';
 
 export const userModelSchema = {
   _id: {
