@@ -1,8 +1,8 @@
-import { userTypeModelSchema } from './../../../dist';
 import {
   commonSchemaFieldDefObjectIdRequired,
   commonSchemaFieldGroupModelType,
 } from '@datr.tech/parcel-model-schemas-common-fields';
+import { userTypeModelSchema } from './../../../dist';
 
 describe('userTypeModelSchema', () => {
   describe('positive', () => {

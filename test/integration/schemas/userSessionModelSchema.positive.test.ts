@@ -1,8 +1,8 @@
-import { userSessionModelSchema } from './../../../dist';
 import {
   commonSchemaFieldDefObjectIdRequired,
   commonSchemaFieldGroupModelType,
 } from '@datr.tech/parcel-model-schemas-common-fields';
+import { userSessionModelSchema } from './../../../dist';
 
 describe('userSessionModelSchema', () => {
   describe('positive', () => {

@@ -1,5 +1,5 @@
-import { roleModelSchemaOptions } from './../../../dist';
 import { commonSchemaOptions } from '@datr.tech/parcel-model-schemas-common-fields';
+import { roleModelSchemaOptions } from './../../../dist';
 
 describe('roleModelSchemaOptions', () => {
   describe('positive', () => {

@@ -1,5 +1,5 @@
-import { organisationTypeModelSchemaOptions } from './../../../dist';
 import { commonSchemaOptions } from '@datr.tech/parcel-model-schemas-common-fields';
+import { organisationTypeModelSchemaOptions } from './../../../dist';
 
 describe('organisationTypeModelSchemaOptions', () => {
   describe('positive', () => {

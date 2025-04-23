@@ -1,8 +1,8 @@
-import { roleModelSchema } from './../../../dist';
 import {
   commonSchemaFieldDefObjectIdRequired,
   commonSchemaFieldGroupModelType,
 } from '@datr.tech/parcel-model-schemas-common-fields';
+import { roleModelSchema } from './../../../dist';
 
 describe('roleModelSchema', () => {
   describe('positive', () => {

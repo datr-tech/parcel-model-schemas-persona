@@ -1,8 +1,8 @@
-import { organisationUserModelSchema } from './../../../dist';
 import {
   commonSchemaFieldDefObjectIdRequired,
   commonSchemaFieldGroupModelType,
 } from '@datr.tech/parcel-model-schemas-common-fields';
+import { organisationUserModelSchema } from './../../../dist';
 
 describe('organisationUserModelSchema', () => {
   describe('positive', () => {
